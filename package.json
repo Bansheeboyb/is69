@@ -1,0 +1,24 @@
+{
+  "name": "is69",
+  "version": "1.0.0",
+  "description": "Is this number 69?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bansheeboyb/is69.git"
+  },
+  "keywords": [
+    "69",
+    "Nice",
+    "The Magic Number"
+  ],
+  "author": "Brandon Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bansheeboyb/is69/issues"
+  },
+  "homepage": "https://github.com/Bansheeboyb/is69#readme"
+}
