@@ -1,6 +1,6 @@
 {
   "name": "is69",
-  "version": "1.0.0",
+  "version": "6.96969",
   "description": "Is this number 69?",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/Bansheeboyb/is69/issues"
   },
-  "homepage": "https://github.com/Bansheeboyb/is69#readme"
+  "homepage": "https://github.com/Bansheeboyb/is69#readme",
+  "dependencies": {
+    "is-eq-nine": "^1.1.0",
+    "is-eq-six": "^1.1.0",
+    "is-even": "^1.0.0",
+    "is-odd": "^3.0.1",
+    "is-string": "^1.0.7",
+    "isnumber": "^1.0.0"
+  }
 }
