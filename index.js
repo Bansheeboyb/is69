@@ -2,6 +2,8 @@ const isNumber = require("is-number");
 const isOdd = require("is-odd");
 const isEven = require("is-even");
 const isString = require("is-string");
+const is9 = require("is-eq-nine");
+const is6 = require("is-eq-six");
 
 module.exports = async (value) => {
 
@@ -29,9 +31,11 @@ module.exports = async (value) => {
   }
 
   //check characters at each position
-  const validCharacterIndex = [6, 9];
+  const check9 = (val) => is9(val);
+  const check6 = (val) => is6(val)
+  const validCharacterIndex = [check6, check9];
   for (let i = 0; i < charCount; i++) {
-    if (charArray[i] !== validCharacterIndex[i]) {
+    if (!validCharacterIndex[i](charArray[i])) {
       return "Not Nice";
     }
   }

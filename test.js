@@ -19,5 +19,5 @@ const test = async () => {
   const test6 = await is69("peanits");
   console.log(test6);
 }
-
 test();
+
